@@ -88,12 +88,6 @@ curl -L https://github.com/srsran/srsRAN_4G/archive/refs/tags/release_23_04.tar.
 tar -xvf srsRAN_23_04.tar.gz
 ```
 ```
-cd srsRAN_23_04
-```
-```
-ls
-```
-```
 cd srsRAN_4G-release_23_04/
 ```
 ```
@@ -106,7 +100,7 @@ cd build
 cmake ..
 ```
 ```
-make -j4
+make -j$(nproc --ignore=1)
 ```
 ```
 make test
