@@ -1,0 +1,33 @@
+/srslteleonardo/Desktop# history 
+    1  cleqr
+    2  setxkbmap fr
+    3  clear
+    4  ls
+    5  apt update
+    6  sudo apt-get install build-essential cmake libfftw3-dev libmbedtls-dev libboost-program-options-dev libconfig++-dev libsctp-dev  
+    7  clear
+    8  apt-get install  base-devel cmake mbdetls fftw boost lksctp-tools
+    9  sudo apt-get install build-essential cmake libfftw3-dev libmbedtls-dev libboost-program-options-dev libconfig++-dev libsctp-dev  pip install mako
+   10  pip install mako
+   11  pip3 install mako
+   12  apt install python3-pip
+   13  git clone -b "v4.4.0.0" https://github.com/EttusResearch/uhd
+   14  apt install git
+   15  pip3 install mako
+   16  git clone -b "v4.4.0.0" https://github.com/EttusResearch/uhd
+   17  git clone  https://github.com/EttusResearch/uhd
+   18  clear
+   19  git clone -b "v4.4.0.0" https://github.com/EttusResearch/uhd
+   20  git config --global http.postBuffer 524288000
+   21  git clone -b "v4.4.0.0" https://github.com/EttusResearch/uhd
+   22  git config --global pack.windowMemory 256m 
+   23  git config --global pack.packSizeLimit 256m
+   24  git config --global http.postBuffer 1024M
+   25  git config --global http.maxRequestBuffer 512M
+   26  git config --global core.compression 9
+   27  git clone -b "v4.4.0.0" https://github.com/EttusResearch/uhd
+   28  history 
+   29  clear
+   30  history 
+root@ubuntu:/home/srslteleonardo/Desktop# 
+

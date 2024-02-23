@@ -1,0 +1,109 @@
+uhd : https://www.linkedin.com/pulse/installation-uhd-40-gnu-radio-38-rfnoc-ubuntu-2004-murthy-s
+https://blog.leonardotamiano.xyz/tech/build-your-own-4g-network/
+
+root@ubuntu:/home/srslteleonardo/uicc-v3.2/srsRAN_4G-release_23_04/build# history
+    1  cleqr
+    2  setxkbmap fr
+    3  clear
+    4  ls
+    5  apt update
+    6  sudo apt-get install build-essential cmake libfftw3-dev libmbedtls-dev libboost-program-options-dev libconfig++-dev libsctp-dev  
+    7  clear
+    8  apt-get install  base-devel cmake mbdetls fftw boost lksctp-tools
+    9  sudo apt-get install build-essential cmake libfftw3-dev libmbedtls-dev libboost-program-options-dev libconfig++-dev libsctp-dev  pip install mako
+   10  pip install mako
+   11  pip3 install mako
+   12  apt install python3-pip
+   13  git clone -b "v4.4.0.0" https://github.com/EttusResearch/uhd
+   14  	
+   15  pip3 install mako
+   16  git clone -b "v4.4.0.0" https://github.com/EttusResearch/uhd
+   17  git clone  https://github.com/EttusResearch/uhd
+   18  clear
+   19  git clone -b "v4.4.0.0" https://github.com/EttusResearch/uhd
+   20  git config --global http.postBuffer 524288000
+   21  git clone -b "v4.4.0.0" https://github.com/EttusResearch/uhd
+   22  git config --global pack.windowMemory 256m 
+   23  git config --global pack.packSizeLimit 256m
+   24  git config --global http.postBuffer 1024M
+   25  git config --global http.maxRequestBuffer 512M
+   26  git config --global core.compression 9
+   27  git clone -b "v4.4.0.0" https://github.com/EttusResearch/uhd
+   28  history 
+   29  clear
+   30  history 
+   31  git clone -b "v4.4.0.0" https://github.com/EttusResearch/uhd
+   32  setxkbmap fr
+   33  git clone -b "v4.4.0.0" https://github.com/EttusResearch/uhd
+   34  mkdir uhd/host/build
+   35  cd uhd/host/build
+   36  cmake ../ -DENABLE-DPDK=OFF
+   37  cmake 
+   38  cmake ..
+   39  sudo apt install git cmake g++ libboost-all-dev libgmp-dev swig python3-numpy python3-mako python3-sphinx python3-lxml doxygen libfftw3-dev libsdl1.2-dev libgsl-dev libqwt-qt5-dev libqt5opengl5-dev python3-pyqt5 liblog4cpp5-dev libzmq3-dev python3-yaml python3-click python3-click-plugins python3-zmq python3-scipy python3-gi python3-gi-cairo gobject-introspection gir1.2-gtk-3.0 build-essential libusb-1.0-0-dev python3-docutils python3-setuptools python3-ruamel.yaml python-is-python3
+   40  sudo apt install libtinfo5 libncurses5
+   41  cmake ../ -DENABLE-DPDK=OFF
+   42  make -j$(nproc --ignore=1)
+   43  cd ..
+   44  rm -rf uhd/
+   45  git clone -b "v4.0" https://github.com/EttusResearch/uhd
+   46  cd /uhd/host/
+   47  ls
+   48  git clone -b "UHD-4.0" https://github.com/EttusResearch/uhd
+   49  clear
+   50  git clone - -branch UHD-4.0 https://github.com/ettusresearch/uhd.git uhd
+   51  git clone - -branch UHD-4.0 https://github.com/ettusresearch/uhd.git 
+   52  git clone --branch UHD-4.0 https://github.com/ettusresearch/uhd.git uhd
+   53  cd /uhd/host/
+   54  ls
+   55  cd uhd/
+   56  ls
+   57  mkdir host
+   58  cd host/
+   59  mkdir build
+   60  cd build
+   61  cmake ..
+   62  make
+   63  make -j4
+   64  make install
+   65  ldconfig
+   66  cd ../../..
+   67  curl https://open-cells.com/d5138782a8739209ec5760865b1e53b0/uicc-v3.2.tgz > /tmp/uicc-v3.2.tgz
+   68  apt install curl
+   69  curl https://open-cells.com/d5138782a8739209ec5760865b1e53b0/uicc-v3.2.tgz > /tmp/uicc-v3.2.tgz
+   70  sha256sum uicc-v3.2.tgz
+   71  apt-get install sha256sum*
+   72  apt-get install sha256sum
+   73  tar -xvf uicc-v3.2.tgz
+   74  ls
+   75  curl https://open-cells.com/d5138782a8739209ec5760865b1e53b0/uicc-v3.2.tgz > /tmp/uicc-v3.2.tgz
+   76  ls
+   77  wget https://open-cells.com/d5138782a8739209ec5760865b1e53b0/uicc-v3.2.tgz 
+   78  ls
+   79  tar -xvf uicc-v3.2.tgz
+   80  cd uicc-v3.2
+   81  make clean
+   82  make 
+   83  ./program_uicc --help
+   84  ./program_uicc --heldfs
+   85  curl -L https://github.com/srsran/srsRAN_4G/archive/refs/tags/release_23_04.tar.gz > /tmp/srsRAN_23_04.tar.gz
+   86  curl -L https://github.com/srsran/srsRAN_4G/archive/refs/tags/release_23_04.tar.gz > srsRAN_23_04.tar.gz
+   87  ls
+   88  tar -xvf srsRAN_23_04.tar.gz
+   89  cd srsRAN_23_04
+   90  ls
+   91  cd srsRAN_4G-release_23_04/
+   92  mkdir build
+   93  cd build
+   94  cmake ..
+   95  make -j4
+   96  make test
+   97  makeinstall
+   98  make install
+   99  history
+  100  clear
+  101  history
+root@ubuntu:/home/srslteleonardo/uicc-v3.2/srsRAN_4G-release_23_04/build# 
+
+
+
