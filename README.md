@@ -27,7 +27,7 @@ sudo apt install libtinfo5 libncurses5
 git clone -b "UHD-4.0" https://github.com/EttusResearch/uhd
 ```
 ```
-cd /uhd/host/
+cd uhd/host/
 ```
 ```
 mkdir build
