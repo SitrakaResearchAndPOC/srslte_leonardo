@@ -219,6 +219,9 @@ exit
 
 # Creating the configuration
 ```
+sudo su
+```
+```
 mkdir -rf /root/.config
 ```
 ```
@@ -238,13 +241,16 @@ exit
 ```
 
 # Sharing Internet
+```
+sudo su
+```
 Open terminal </br>
 Find the name of the interface having internet, let name it <name_interface>
 ```
 ifconfig
 ```
 ```
-cd srsRAN../epc
+cd srsRAN_4G-release_23_04//epc
 ```
 ```
 sudo ./srsepc/srsepc_if_masq.sh name_interface
