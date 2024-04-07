@@ -213,7 +213,14 @@ sudo ./program_uicc --adm xxxxxxxx --imsi 208920100001101 --isdn 00000001 --acc 
 ```
 Configure the apn of phone as : OpenCells01
 
+```
+exit
+```
+
 # Creating the configuration
+```
+mkdir -rf /root/.config
+```
 ```
 mkdir -rf /root/.config/srsran
 ```
@@ -224,7 +231,7 @@ wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/srslte_leonardo/mai
 unzip srsran_config.zip
 ```
 ```
-cp srsran_config/* /root/.config/srsran
+cp srsran/* /root/.config/srsran
 ```
 ```
 exit
@@ -241,6 +248,10 @@ cd srsRAN../epc
 ```
 ```
 sudo ./srsepc/srsepc_if_masq.sh name_interface
+```
+# Preparing launching LTE
+```
+uhd_images_downloader
 ```
 
 # Launching LTE
