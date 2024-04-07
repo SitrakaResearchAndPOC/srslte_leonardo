@@ -111,7 +111,7 @@ sudo apt install git cmake g++ libboost-all-dev libgmp-dev swig python3-numpy py
 sudo apt install libtinfo5 libncurses5
 ```
 ```
-apt-get curl install wget zip
+apt-get  install curl wget zip
 ```
 
 ## Installing UHD
