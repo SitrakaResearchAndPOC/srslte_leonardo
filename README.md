@@ -240,13 +240,14 @@ ifconfig
 cd srsRAN../epc
 ```
 ```
-sudo ./srsepc/srsepc_if_masq.sh nom_wifi
+sudo ./srsepc/srsepc_if_masq.sh name_interface
 ```
 
 # Launching LTE
 ```
 srsepc
 ```
+Tape ctrl+shift+T
 ```
 srsenb
 ```
