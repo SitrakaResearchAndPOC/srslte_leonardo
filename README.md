@@ -206,7 +206,7 @@ ldconfig
 ```
 cd uicc-v3.2
 ```
-Please replace xxxxxxxx by 0c010955
+Please replace xxxxxxxx by 0c010955 </br>
 RQ : More information about parmeters of program_uicc please check this [github](https://github.com/SitrakaResearchAndPOC/fork_program_uicc) and [youtube](https://www.youtube.com/watch?v=nfTzATOZd_s)
 ```
 sudo ./program_uicc --adm xxxxxxxx --imsi 208920100001101 --isdn 00000001 --acc 0001 --key 6874736969202073796d4b2079650a73 --opc 504f20634f6320504f50206363500a4f -spn "OpenCells01" --authenticate 
@@ -241,7 +241,6 @@ cd srsRAN../epc
 ```
 ```
 sudo ./srsepc/srsepc_if_masq.sh nom_wifi
-```
 ```
 
 # Launching LTE
