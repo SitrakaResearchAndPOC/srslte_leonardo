@@ -250,7 +250,7 @@ Find the name of the interface having internet, let name it <name_interface>
 ifconfig
 ```
 ```
-cd srsRAN_4G-release_23_04//epc
+cd srsRAN_4G-release_23_04/epc
 ```
 ```
 sudo ./srsepc/srsepc_if_masq.sh name_interface
@@ -259,8 +259,15 @@ sudo ./srsepc/srsepc_if_masq.sh name_interface
 ```
 uhd_images_downloader
 ```
+```
+exit
+```
+
 
 # Launching LTE
+```
+sudo su
+```
 ```
 srsepc
 ```
