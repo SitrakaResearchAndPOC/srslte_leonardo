@@ -1,4 +1,4 @@
-# srslte_leonardo
+# srslte_leonardo (ubuntu 20.04)
 
 # INSTALLING MATLAB
 ```
