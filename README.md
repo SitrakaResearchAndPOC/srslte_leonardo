@@ -196,6 +196,64 @@ make test
 ```
 make install
 ```
+```
+ldconfig
+```
+
+# Programming SIMCARD
+
+```
+cd uicc-v3.2
+```
+Please replace xxxxxxxx by 0c010955
+RQ : More information about parmeters of program_uicc please check this [github](https://github.com/SitrakaResearchAndPOC/fork_program_uicc) and [youtube](https://www.youtube.com/watch?v=nfTzATOZd_s)
+```
+sudo ./program_uicc --adm xxxxxxxx --imsi 208920100001101 --isdn 00000001 --acc 0001 --key 6874736969202073796d4b2079650a73 --opc 504f20634f6320504f50206363500a4f -spn "OpenCells01" --authenticate 
+```
+Configure the apn of phone as : OpenCells01
+
+# Creating the configuration
+```
+apt-get install wget zip
+```
+```
+mkdir -rf /root/.config/srsran
+```
+```
+wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/srslte_leonardo/main/srsran_config.zip
+```
+```
+unzip srsran_config.zip
+```
+```
+cp srsran_config/* /root/.config/srsran
+```
+```
+exit
+```
+
+# Sharing Internet
+Open terminal </br>
+Find the name of the interface having internet, let name it <name_interface>
+```
+ifconfig
+```
+```
+cd srsRAN../epc
+```
+```
+sudo ./srsepc/srsepc_if_masq.sh nom_wifi
+```
+```
+
+# Launching LTE
+```
+srsepc
+```
+```
+srsenb
+```
+
 
 # Link
 * [uhd](https://www.linkedin.com/pulse/installation-uhd-40-gnu-radio-38-rfnoc-ubuntu-2004-murthy-s)
