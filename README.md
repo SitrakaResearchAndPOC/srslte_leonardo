@@ -110,6 +110,10 @@ sudo apt install git cmake g++ libboost-all-dev libgmp-dev swig python3-numpy py
 ```
 sudo apt install libtinfo5 libncurses5
 ```
+```
+apt-get curl install wget zip
+```
+
 ## Installing UHD
 ```
 git clone -b "UHD-4.0" https://github.com/EttusResearch/uhd
@@ -140,9 +144,6 @@ cd ../../..
 ```
 
 ## Installing opencells simcard
-```
-apt install curl
-```
 ```
 curl https://open-cells.com/d5138782a8739209ec5760865b1e53b0/uicc-v3.2.tgz > uicc-v3.2.tgz
 ```
@@ -213,9 +214,6 @@ sudo ./program_uicc --adm xxxxxxxx --imsi 208920100001101 --isdn 00000001 --acc 
 Configure the apn of phone as : OpenCells01
 
 # Creating the configuration
-```
-apt-get install wget zip
-```
 ```
 mkdir -rf /root/.config/srsran
 ```
