@@ -163,6 +163,7 @@ or
 ```
 plotting_key_evaluation(10, '--')
 ```
+or
 ```
 plotting_key_evaluation(10, ':')
 ```
