@@ -170,6 +170,7 @@ make
 ```
 cd ..
 ```
+## Installing srsRAN
 ```
 curl -L https://github.com/srsran/srsRAN_4G/archive/refs/tags/release_23_04.tar.gz > srsRAN_23_04.tar.gz
 ```
@@ -201,7 +202,7 @@ make install
 ldconfig
 ```
 
-# Programming SIMCARD
+# On linux : Programming SIMCARD
 
 ```
 cd uicc-v3.2
@@ -216,7 +217,14 @@ Configure the apn of phone as : OpenCells01
 ```
 exit
 ```
-
+# On windows, use grsim 
+[gr_sim](https://github.com/SitrakaResearchAndPOC/srslte_leonardo/blob/main/GRSIMWrite-3.10%20.zip) </br>
+unzip and lauch GRSIMWrite.exe </br>
+Download the config at [sim_config](https://github.com/SitrakaResearchAndPOC/srslte_leonardo/blob/main/sim_srslte.grsp) </br>
+Click loadData and select sim_srslte.grsp </br>
+Plug the simwrite </br>
+Click Refresh </br>
+Click writeData </br>
 # Creating the configuration
 ```
 sudo su
@@ -228,7 +236,25 @@ mkdir -rf /root/.config
 mkdir -rf /root/.config/srsran
 ```
 ```
+rm -rf /root/.config/srsran/*
+```
+* For USRP : config
+```
 wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/srslte_leonardo/main/srsran_config.zip
+```
+```
+unzip srsran_config.zip
+```
+```
+cp srsran/* /root/.config/srsran
+```
+```
+exit
+```
+
+* For BladeRF : config
+```
+wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/srslte_leonardo/main/srsran_config_bladerf.zip
 ```
 ```
 unzip srsran_config.zip
