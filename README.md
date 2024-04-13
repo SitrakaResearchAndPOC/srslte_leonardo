@@ -114,6 +114,60 @@ sudo apt install libtinfo5 libncurses5
 apt-get  install curl wget zip net-tools
 ```
 
+## Testing MATALAB CODE
+```
+cd /usr/local/MATLAB/R2018b/bin
+```
+```
+wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/srslte_leonardo/main/FinalCodeRAJO.zip
+```
+```
+unzip FinalCodeRAJO.zip
+```
+run matlab by 
+```
+./matlab
+```
+TEST ON MATLAB </br>
+getting key
+```
+getting_key()
+```
+For plotting key with index_in = 1 for 256 bits
+```
+plotting_key256(1)
+```
+For plotting key with index_in = 1 for 512 bits
+```
+plotting_key512(1)
+```
+RQ : Before imshow, use conversion uint8
+```
+testing_inversibility_chaotic_ANN_Substitution
+```
+```
+testing_inversibility_chaotic_HamiltonianPermutation
+```
+Plotting result : 
+```
+plotting_full_matrix_result1
+```
+```
+plotting_full_matrix_result2
+```
+Plotting key result : 
+```
+plotting_key_evaluation(10, '-')
+```
+or
+```
+plotting_key_evaluation(10, '--')
+```
+```
+plotting_key_evaluation(10, ':')
+```
+
+
 ## Installing UHD
 ```
 git clone -b "UHD-4.0" https://github.com/EttusResearch/uhd
