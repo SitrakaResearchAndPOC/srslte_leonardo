@@ -128,7 +128,9 @@ run matlab by
 ```
 ./matlab
 ```
+ON MATLAB got to : FinalCodeRAJO </br></br>
 TEST ON MATLAB </br>
+RQ : you could use ctrl+Y to paste on matlab
 getting key
 ```
 getting_key()
@@ -196,6 +198,31 @@ ldconfig
 ```
 ```
 cd ../../..
+```
+# Installing driver bladerf : 
+```
+git clone https://github.com/Nuand/bladeRF.git
+```
+```
+cd bladeRF
+```
+```
+mkdir build
+```
+```
+cd build
+```
+```
+cmake ../
+```
+```
+make
+```
+```
+sudo make install
+```
+```
+sudo ldconfig
 ```
 
 ## Installing opencells simcard
