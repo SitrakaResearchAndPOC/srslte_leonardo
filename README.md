@@ -224,6 +224,9 @@ sudo make install
 ```
 sudo ldconfig
 ```
+```
+cd ../..
+```
 
 ## Installing opencells simcard
 ```
