@@ -342,7 +342,13 @@ exit
 wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/srslte_leonardo/main/srsran_config_bladerf.zip
 ```
 ```
-unzip srsran_config.zip
+rm -rf srsran
+```
+```
+rm -rf /root/.config/srsran/*
+```
+```
+unzip srsran_config_bladerf.zip
 ```
 ```
 cp srsran/* /root/.config/srsran
