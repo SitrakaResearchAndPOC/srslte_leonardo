@@ -400,10 +400,20 @@ Tape ctrl+shift+T
 srsenb
 ```
 
+RQ : Error time burst </br>
+* The USB doesn't detect USB3.0 </br>
+* The processing is no enough </br>
+* The configuration is bad indeed about device argument and references clock of equipement </br>
 
 # Link
 * [uhd](https://www.linkedin.com/pulse/installation-uhd-40-gnu-radio-38-rfnoc-ubuntu-2004-murthy-s)
 * [leonardo](https://blog.leonardotamiano.xyz/tech/build-your-own-4g-network/)
-
-
-
+* [hackmd](https://hackmd.io/@4G7xxurNQEGA3Apb11YQJg/H1GJsHt9o)
+* [cyberloginit](https://cyberloginit.com/2018/05/03/build-a-lte-network-with-srslte-and-program-your-own-usim-card.html)
+* [ilabt](https://doc.ilabt.imec.be/ilabt/wilab/tutorials/usrp_b200.html)
+* [tenettech](https://blogspot.tenettech.net/2019/10/17/validation-of-4g-lte-using-software-defined-radio/)
+* [zhixun-wireless](http://zhixun-wireless.top/install-and-configure-srslte-enb-epc-on-ubuntu)
+* [nickvsnetworking](https://nickvsnetworking.com/srslte-install-for-bladerf-limesdr-on-debian-ubuntu/)
+* [programmersought](https://programmersought.com/article/84496400694/)
+* [matlab_hash_used](https://github.com/paulchen2713/SHA3)
+* [matlab_hash_ref](https://www.mathworks.com/matlabcentral/fileexchange/31795-sha-algorithms-160-224-256-384-512)	
