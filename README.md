@@ -106,6 +106,12 @@ Find the certificate at /usr/local/MATLAB/R2018b/bin/ as license_standalone.lic 
 create bash scripting for matlab
 #ln -s /usr/local/MATLAB/R2018b/bin/matlab /home/fnmg/Desktop/matlab
 ```
+exit
+```
+```
+sudo su
+```
+```
 nano matlab.sh
 ```
 create and save 
