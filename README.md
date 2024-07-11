@@ -4,13 +4,7 @@
 ```
 setxkbmap fr
 ```
-Copy MATLAB File </br>
-extract crack in DOWNLOADS/MATLAB : MATLAB_R2018b_Linux64_Crack.zip </br>
-Create directory MATLABLIC </br>
-Copy all crack file in MATLABLIC </br>
-```
-sudo su
-```
+* INSTALLING MATLAB 2018
 ```
 mkdir MATLAB
 ```
@@ -24,17 +18,13 @@ open the two file using diskimager : </br>
 utf-8''r2018b_glnxa64_dvd1.iso </br>
 utf-8''r2018b_glnxa64_dvd2.iso </br>
 </br>
-Mounting point is : /media/nom_session/nom_dvd </br>
-for me : name_session it's leonardo et name_dvd c'est MATHWORKS_R2018B et MATHWORKS_R2018B1 </br>
-</br>
+Mounting point is : /media/name_session/name_dvd </br>
+for me : name_session it's dast et name_dvd are MATHWORKS_R2018B et MATHWORKS_R2018B1 </br>
 ```
-mkdir INSTALL
-```
-```
-cp -rf /media/leonardo/MATHWORKS_R2018B/* INSTALL
+cp -rf /media/MATHWORKS_R2018B/* INSTALL
 ```
 ```
-cp -r /media/leonardo/MATHWORKS_R2018B1/* INSTALL
+cp -rf /media/MATHWORKS_R2018B1/* INSTALL
 ```
 ```
 cd INSTALL
@@ -42,7 +32,6 @@ cd INSTALL
 ```
 bash install
 ```
-
 Enter the right key : </br>
 For me , it's : 
 ```
@@ -69,25 +58,42 @@ For me , it's :
 INSTALLATION FILE IS IN : /usr/local/MATLAB/R2018b </br>
 use this command for changing path : 
 ```
-cd /usr/local/MATLAB/R2018b/bin
+wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/MATLAB_R2018b_Linux64_Crack/main/MATLAB_R2018b_Linux64_Crack.zip
 ```
-
-Copy the licence key : 
 ```
-cd /home/leonardo/Downloads/MATLAB
+unzip MATLAB_R2018b_Linux64_Crack.zip
+```
+```
+mv 'MATLAB R2018b Linux64 Crack' MATLABLIC
 ```
 ```
 cp MATLABLIC/license_standalone.lic /usr/local/MATLAB/R2018b/bin/
 ```
-Copy the crack : 
 ```
 cp -rf  MATLABLIC/R2018b/bin/glnxa64/* /usr/local/MATLAB/R2018b/bin/glnxa64/
 ```
 ```
-cd /usr/local/MATLAB/R2018b/bin
+cd /usr/local/MATLAB/R2018b/bin/
 ```
+```
+./matlab
+```
+Find the certificate at /usr/local/MATLAB/R2018b/bin/ as license_standalone.lic </br>
+create bash scripting for matlab
 #ln -s /usr/local/MATLAB/R2018b/bin/matlab /home/fnmg/Desktop/matlab
-
+```
+nano matlab.sh
+```
+create and save 
+```
+#!/bin/sh
+echo "launching matlab 2018"
+cd /usr/local/MATLAB/R2018b/bin/
+./matlab
+```
+```
+chmod +x matlab.sh
+```
 # INSTALLING DEPENDENCIES
 ```
 sudo su
