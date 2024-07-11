@@ -6,6 +6,9 @@ setxkbmap fr
 ```
 * INSTALLING MATLAB 2018
 ```
+sudo su
+```
+```
 mkdir MATLAB
 ```
 ```
