@@ -4,6 +4,27 @@
 ```
 setxkbmap fr
 ```
+* INSTALLING PSENSOR
+```
+sudo su
+```
+```
+apt update
+```
+```
+apt install lm-sensors
+```
+```
+sensors-detect
+```
+```
+apt install psensor
+```
+
+```
+exit
+```
+  
 * INSTALLING MATLAB 2018
 ```
 sudo su
