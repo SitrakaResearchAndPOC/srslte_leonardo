@@ -413,11 +413,17 @@ unzip srsran_config_bladerf.zip
 cp srsran/* /root/.config/srsran
 ```
 ```
+wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/srslte_leonardo/main/script_srs.zip
+```
+```
+unzip script_srs.zip
+```
+```
+cp -rf script_srs/SCRIPT_SRS/home/*.sh ../$SUDO_USER
+```
+```
 exit
 ```
-
-
-
 # Preparing launching LTE
 Before launching, reboot if necessary
 ```
