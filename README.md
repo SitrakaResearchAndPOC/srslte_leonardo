@@ -428,6 +428,12 @@ cp -rf SCRIPT_SRS/home/*.sh ../$SUDO_USER
 ```
 chmod +x *.sh
 ```
+with low cpu power, config prb as 25 in : 
+```
+nano  /root/.config/srsran/
+```
+change </br>
+n_prb = 25
 ```
 exit
 ```
