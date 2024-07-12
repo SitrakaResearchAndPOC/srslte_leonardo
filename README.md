@@ -4,7 +4,7 @@
 ```
 setxkbmap fr
 ```
-* INSTALLING PSENSOR
+# INSTALLING PSENSOR
 ```
 sudo su
 ```
@@ -25,7 +25,7 @@ apt install psensor
 exit
 ```
   
-* INSTALLING MATLAB 2018
+# INSTALLING MATLAB 2018
 ```
 sudo su
 ```
@@ -352,6 +352,23 @@ Click loadData and select sim_srslte.grsp </br>
 Plug the simwrite </br>
 Click Refresh </br>
 Click writeData </br>
+
+# INSTALLING CPU-POWER
+```
+apt update
+```
+Installing CPUPOWER
+```
+apt-get install linux-tools-common
+```
+```
+apt-get install linux-tools-generic
+```
+(installing also linux-tools-<number-proposed>-tools-generic by taping command cpupower)
+```
+cpupower frequency-set -g performance 
+```
+
 # Creating the configuration
 ```
 sudo su
@@ -399,21 +416,6 @@ cp srsran/* /root/.config/srsran
 exit
 ```
 
-# Sharing Internet
-```
-sudo su
-```
-Open terminal </br>
-Find the name of the interface having internet, let name it <name_interface>
-```
-ifconfig
-```
-```
-cd srsRAN_4G-release_23_04/epc
-```
-```
-./srsepc/srsepc_if_masq.sh name_interface
-```
 
 
 # Preparing launching LTE
@@ -431,12 +433,20 @@ exit
 sudo su
 ```
 ```
-srsepc
+bash srsepc.sh
 ```
 Tape ctrl+shift+T
 ```
-srsenb
+bash srsenb.sh
 ```
+```
+if config
+```
+find <interface>
+```
+bash srsepc_if_masq.sh <interface>
+```
+
 
 RQ : Error time burst </br>
 * The USB doesn't detect USB3.0 </br>
