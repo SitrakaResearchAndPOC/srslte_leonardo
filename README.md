@@ -258,10 +258,10 @@ cmake ../
 make
 ```
 ```
-sudo make install
+make install
 ```
 ```
-sudo ldconfig
+ldconfig
 ```
 ```
 cd ../..
@@ -412,8 +412,10 @@ ifconfig
 cd srsRAN_4G-release_23_04/epc
 ```
 ```
-sudo ./srsepc/srsepc_if_masq.sh name_interface
+./srsepc/srsepc_if_masq.sh name_interface
 ```
+
+
 # Preparing launching LTE
 Before launching, reboot if necessary
 ```
