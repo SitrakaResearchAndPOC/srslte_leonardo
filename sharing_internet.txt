@@ -1,0 +1,15 @@
+# Sharing Internet
+```
+sudo su
+```
+Open terminal </br>
+Find the name of the interface having internet, let name it <name_interface>
+```
+ifconfig
+```
+```
+cd srsRAN_4G-release_23_04/epc
+```
+```
+./srsepc/srsepc_if_masq.sh name_interface
+```
