@@ -415,6 +415,7 @@ unzip srsran_config_bladerf.zip
 ```
 cp srsran/* /root/.config/srsran
 ```
+* Configuring all scripts
 ```
 wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/srslte_leonardo/main/script_srs.zip
 ```
@@ -422,7 +423,10 @@ wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/srslte_leonardo/mai
 unzip script_srs.zip
 ```
 ```
-cp -rf script_srs/SCRIPT_SRS/home/*.sh ../$SUDO_USER
+cp -rf SCRIPT_SRS/home/*.sh ../$SUDO_USER
+```
+```
+chmod +x *.sh
 ```
 ```
 exit
