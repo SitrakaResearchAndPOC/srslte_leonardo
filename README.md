@@ -359,6 +359,9 @@ apt update
 ```
 Installing CPUPOWER
 ```
+cpupower
+```
+```
 apt-get install linux-tools-common
 ```
 ```
@@ -374,10 +377,10 @@ cpupower frequency-set -g performance
 sudo su
 ```
 ```
-mkdir -rf /root/.config
+mkdir -p /root/.config
 ```
 ```
-mkdir -rf /root/.config/srsran
+mkdir -p /root/.config/srsran
 ```
 ```
 rm -rf /root/.config/srsran/*
